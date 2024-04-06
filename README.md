@@ -48,11 +48,11 @@ Testing Mode
 python3 main.py
 
 # Running with a specified weights filename for weights
-python3 main.py filename=example_data.txt
+python3 main.py filename=example_weights.txt
 
 # Running with a specified weights filename and custom number of runs
-python3 main.py filename=example_data.txt runs=10
+python3 main.py filename=example_weights.txt runs=10
 
 # Running with custom board size and specified weighs filename and custom number of runs
-python3 main.py height=15 width=15 filename=test_data.txt runs=5
+python3 main.py height=15 width=15 filename=example_weights.txt runs=5
 ```
